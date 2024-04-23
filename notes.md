@@ -1,4 +1,6 @@
-# Estrutura de diretorio
+# Módulo 1
+
+## Estrutura de diretorio
 
 - /app
   - Contém todas as rotas, componentes e a lógica para a aplicação. É aonde mais vamos trabalhar
@@ -20,3 +22,12 @@
 
 # /app/lib/definitions.ts
 É nesse arquivo em que o Next.js armazena os types das classes da aplicação
+
+# Módulo 2
+
+## Estilos globais
+A orientação do Next.js é que o global.css sejá adicionado ao arquivo de root layout em /app/layout.tsx
+
+## Estilos condicionais
+Para adicionar estilos condicionais o next.js sugere o uso da biblioteca CLSX para esse fim
+[clsx-link](https://github.com/lukeed/clsx)
